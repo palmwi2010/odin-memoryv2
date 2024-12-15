@@ -6,10 +6,8 @@ async function fetchImage(development = true) {
         return Promise.resolve(`/tmp-images/cat${index+1}.jpg`);
     }
 
-    console.log("calling the api!")
-
     const tag = 'cat';
-    const apiKey = 'QvRohQ10vPuHp7kDW6JA16dUxrdsb3Aq'; // import.meta.env.GIPHY_KEY;
+    const apiKey = import.meta.env.VITE_GIPHY_KEY; // import.meta.env.GIPHY_KEY;
 
     const url = `https://api.giphy.com/v1/gifs/random?api_key=${apiKey}&tag=${tag}&rating=g`;
 

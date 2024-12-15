@@ -2,9 +2,6 @@ import './styles/Scoreboard.css'
 
 function Scoreboard({score, highScore}) {
 
-    // TODO: get the score dynamically
-
-
     return (
     <div className="scoreboard">
         <div className="score-row">

@@ -5,7 +5,7 @@ import Scoreboard from './Scoreboard'
 import { useEffect, useState } from 'react';
 
 function App() {
-  const NUM_IMAGES = 12;
+  const NUM_IMAGES = 2;
 
   // initialize empty urls and indices
   const [imgUrls, setUrls] = useState([]);
