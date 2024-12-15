@@ -1,0 +1,34 @@
+.scoreboard {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.score-row {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.scorelabel {
+    width: 14ch;
+    text-transform: uppercase;
+    letter-spacing: 0ch;
+    font-weight: 700;
+}
+
+.scorenumber {
+    font-size: 1.5rem;
+    border: 1px solid black;
+    padding: 4px;
+    color: blue;
+    width: 2ch;
+    box-sizing: content-box;
+}
